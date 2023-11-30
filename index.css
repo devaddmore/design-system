@@ -78,7 +78,7 @@
         --light-button-icon-status-success--regular: var(--dark-button-icon-status-success--regular);
         --light-button-icon-status-success--hover: var(--dark-button-icon-status-success--hover);
         --light-button-icon-status-success--active: var(--dark-button-icon-status-success--active);
-        --light-button-icon-status-success--disabled: var(--dark-button-icon-status-success-disabled);
+        --light-button-icon-status-success--disabled: var(--dark-button-icon-status-success--disabled);
 
 
         /* BUTTON ICON STATUS - WARNING // LIGHT - DARK */
