@@ -5,7 +5,7 @@
 
 [color-mode="dark"] {
 
-    /* ------------------------- BUTTON TEXT - BEGINNING ------------------------- */
+	/* ------------------------- BUTTON TEXT - BEGINNING ------------------------- */
 
         /* BUTTON TEXT - PRIMARY // LIGHT - DARK */
         --light-button-text-primary--regular: var(--dark-button-text-primary--regular);
@@ -27,7 +27,7 @@
         --light-button-text-tertiary--active: var(--dark-button-text-tertiary--active);
         --light-button-text-tertiary--disabled: var(--dark-button-text-tertiary--disabled);
 
-		/* ------------------------- BUTTON TEXT STATUS - BEGINNING ------------------------- */
+	/* ------------------------- BUTTON TEXT STATUS - BEGINNING ------------------------- */
 
         /* BUTTON TEXT STATUS - SUCCESS // LIGHT - DARK */
         --light-button-text-status-success--regular: var(--dark-button-text-status-success--regular);
@@ -50,7 +50,7 @@
         --light-button-text-status-error--disabled: var(--dark-button-text-status-error--disabled);
         
 
-		/* ------------------------- BUTTON ICON - BEGINNING ------------------------- */
+	/* ------------------------- BUTTON ICON - BEGINNING ------------------------- */
 
         /* BUTTON ICON - PRIMARY // LIGHT - DARK */
         --light-button-icon-primary--regular: var(--dark-button-icon-primary--regular);
@@ -72,7 +72,7 @@
         --light-button-icon-tertiary--active: var(--dark-button-icon-tertiary--active);
         --light-button-icon-tertiary--disabled: var(--dark-button-icon-tertiary--disabled);
         
-		/* ------------------------- BUTTON ICON STATUS - BEGINNING ------------------------- */
+	/* ------------------------- BUTTON ICON STATUS - BEGINNING ------------------------- */
 
         /* BUTTON ICON STATUS - SUCCESS // LIGHT - DARK */
         --light-button-icon-status-success--regular: var(--dark-button-icon-status-success--regular);
@@ -94,7 +94,7 @@
         --light-button-icon-status-error--active: var(--dark-button-icon-status-error--active);
         --light-button-icon-status-error--disabled: var(--dark-button-icon-status-error--disabled);
 
-    /* ------------------------- BORDER - BEGINNING ------------------------- */
+    	/* ------------------------- BORDER - BEGINNING ------------------------- */
 
         /* BORDER - PRIMARY // LIGHT - DARK */
         --light-button-border-primary--regular: var(--dark-button-border-primary--regular);
@@ -116,7 +116,7 @@
         --light-button-border-tertiary--active: var(--dark-button-border-tertiary--active);
         --light-button-border-tertiary--disabled: var(--dark-button-border-tertiary--disabled);
 
-		/* ------------------------- BORDER STATUS - BEGINNING ------------------------- */
+	/* ------------------------- BORDER STATUS - BEGINNING ------------------------- */
 
         /* BORDER STATUS - SUCCESS // LIGHT - DARK */
         --light-button-border-status-success--regular: var(--dark-button-border-status-success--regular);
@@ -138,7 +138,7 @@
         --light-button-border-status-error--active: var(--dark-button-border-status-error--active);
         --light-button-border-status-error--disabled: var(--dark-button-border-status-error--disabled);
         
-    /* ------------------------- BACKGROUND - BEGINNING ------------------------- */
+    	/* ------------------------- BACKGROUND - BEGINNING ------------------------- */
 
         /* BACKGROUND - PRIMARY // LIGHT - DARK */
         --light-button-background-primary--regular: var(--dark-button-background-primary--regular);
@@ -160,7 +160,7 @@
         --light-button-background-tertiary--active: var(--dark-button-background-tertiary--active);
         --light-button-background-tertiary--disabled: var(--dark-button-background-tertiary--disabled);
 
-		/* ------------------------- BORDER STATUS - BEGINNING ------------------------- */
+	/* ------------------------- BORDER STATUS - BEGINNING ------------------------- */
 
         /* BACKGROUND STATUS - SUCCESS // LIGHT - DARK */
         --light-button-background-status-success--regular: var(--dark-button-background-status-success--regular);
