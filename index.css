@@ -1,3 +1,184 @@
-body {
-  background-color: red;
-}
+/* DO NOT TOUCH */
+
+
+/* COMPONENT COLORS */
+
+[color-mode="dark"] {
+
+    /* ------------------------- BUTTON TEXT - BEGINNING ------------------------- */
+
+        /* BUTTON TEXT - PRIMARY // LIGHT - DARK */
+        --light-button-text-primary--regular: var(--dark-button-text-primary--regular);
+        --light-button-text-primary--hover: var(--dark-button-text-primary--hover);
+        --light-button-text-primary--active: var(--dark-button-text-primary--active);
+        --light-button-text-primary--disabled: var(--dark-button-text-primary--disabled);
+
+
+        /* BUTTON TEXT - SECONDARY // LIGHT - DARK */
+        --light-button-text-secondary--regular: var(--dark-button-text-secondary--regular);
+        --light-button-text-secondary--hover: var(--dark-button-text-secondary--hover);
+        --light-button-text-secondary--active: var(--dark-button-text-secondary--active);
+        --light-button-text-secondary--disabled: var(--dark-button-text-secondary--disabled);
+
+
+        /* BUTTON TEXT - TERTIARY // LIGHT - DARK */
+        --light-button-text-tertiary--regular: var(--dark-button-text-tertiary--regular);
+        --light-button-text-tertiary--hover: var(--dark-button-text-tertiary--hover);
+        --light-button-text-tertiary--active: var(--dark-button-text-tertiary--active);
+        --light-button-text-tertiary--disabled: var(--dark-button-text-tertiary--disabled);
+
+		/* ------------------------- BUTTON TEXT STATUS - BEGINNING ------------------------- */
+
+        /* BUTTON TEXT STATUS - SUCCESS // LIGHT - DARK */
+        --light-button-text-status-success--regular: var(--dark-button-text-status-success--regular);
+        --light-button-text-status-success--hover: var(--dark-button-text-status-success--hover);
+        --light-button-text-status-success--active: var(--dark-button-text-status-success--active);
+        --light-button-text-status-success--disabled: var(--dark-button-text-status-success--disabled);
+
+
+        /* BUTTON STATUS  - WARNING // LIGHT - DARK */
+        --light-button-text-status-warning--regular: var(--dark-button-text-status-warning--regular);
+        --light-button-text-status-warning--hover: var(--dark-button-text-status-warning--hover);
+        --light-button-text-status-warning--active: var(--dark-button-text-status-warning--active);
+        --light-button-text-status-warning--disabled: var(--dark-button-text-status-warning--disabled);
+
+
+        /* BUTTON TEXT STATUS - ERROR // LIGHT - DARK */
+        --light-button-text-status-error--regular: var(--dark-button-text-status-error--regular);
+        --light-button-text-status-error--hover: var(--dark-button-text-status-error--hover);
+        --light-button-text-status-error--active: var(--dark-button-text-status-error--active);
+        --light-button-text-status-error--disabled: var(--dark-button-text-status-error--disabled);
+        
+
+		/* ------------------------- BUTTON ICON - BEGINNING ------------------------- */
+
+        /* BUTTON ICON - PRIMARY // LIGHT - DARK */
+        --light-button-icon-primary--regular: var(--dark-button-icon-primary--regular);
+        --light-button-icon-primary--hover: var(--dark-button-icon-primary--hover);
+        --light-button-icon-primary--active: var(--dark-button-icon-primary--active);
+        --light-button-icon-primary--disabled: var(--dark-button-icon-primary--disabled);
+
+
+        /* BUTTON ICON - SECONDARY // LIGHT - DARK */
+        --light-button-icon-secondary--regular: var(--dark-button-icon-secondary--regular);
+        --light-button-icon-secondary--hover: var(--dark-button-icon-secondary--hover);
+        --light-button-icon-secondary--active: var(--dark-button-icon-secondary--active);
+        --light-button-icon-secondary--disabled: var(--dark-button-icon-secondary--disabled);
+
+
+        /* BUTTON ICON - TERTIARY // LIGHT - DARK */
+        --light-button-icon-tertiary--regular: var(--dark-button-icon-tertiary--regular);
+        --light-button-icon-tertiary--hover: var(--dark-button-icon-tertiary--hover);
+        --light-button-icon-tertiary--active: var(--dark-button-icon-tertiary--active);
+        --light-button-icon-tertiary--disabled: var(--dark-button-icon-tertiary--disabled);
+        
+		/* ------------------------- BUTTON ICON STATUS - BEGINNING ------------------------- */
+
+        /* BUTTON ICON STATUS - SUCCESS // LIGHT - DARK */
+        --light-button-icon-status-success--regular: var(--dark-button-icon-status-success--regular);
+        --light-button-icon-status-success--hover: var(--dark-button-icon-status-success--hover);
+        --light-button-icon-status-success--active: var(--dark-button-icon-status-success--active);
+        --light-button-icon-status-success--disabled: var(--dark-button-icon-status-success-disabled);
+
+
+        /* BUTTON ICON STATUS - WARNING // LIGHT - DARK */
+        --light-button-icon-status-warning--regular: var(--dark-button-icon-status-warning--regular);
+        --light-button-icon-status-warning--hover: var(--dark-button-icon-status-warning--hover);
+        --light-button-icon-status-warning--active: var(--dark-button-icon-status-warning--active);
+        --light-button-icon-status-warning--disabled: var(--dark-button-icon-status-warning--disabled);
+
+
+        /* BUTTON ICON STATUS - ERROR // LIGHT - DARK */
+        --light-button-icon-status-error--regular: var(--dark-button-icon-status-error--regular);
+        --light-button-icon-status-error--hover: var(--dark-button-icon-status-error--hover);
+        --light-button-icon-status-error--active: var(--dark-button-icon-status-error--active);
+        --light-button-icon-status-error--disabled: var(--dark-button-icon-status-error--disabled);
+
+    /* ------------------------- BORDER - BEGINNING ------------------------- */
+
+        /* BORDER - PRIMARY // LIGHT - DARK */
+        --light-button-border-primary--regular: var(--dark-button-border-primary--regular);
+        --light-button-border-primary--hover: var(--dark-button-border-primary--hover);
+        --light-button-border-primary--active: var(--dark-button-border-primary--active);
+        --light-button-border-primary--disabled: var(--dark-button-border-primary--disabled);
+
+
+        /* BORDER - SECONDARY // LIGHT - DARK */
+        --light-button-border-secondary--regular: var(--dark-button-border-secondary--regular);
+        --light-button-border-secondary--hover: var(--dark-button-border-secondary--hover);
+        --light-button-border-secondary--active: var(--dark-button-border-secondary--active);
+        --light-button-border-secondary--disabled: var(--dark-button-border-secondary--disabled);
+
+
+        /* BORDER - TERTIARY // LIGHT - DARK */
+        --light-button-border-tertiary--regular: var(--dark-button-border-tertiary--regular);
+        --light-button-border-tertiary--hover: var(--dark-button-border-tertiary--hover);
+        --light-button-border-tertiary--active: var(--dark-button-border-tertiary--active);
+        --light-button-border-tertiary--disabled: var(--dark-button-border-tertiary--disabled);
+
+		/* ------------------------- BORDER STATUS - BEGINNING ------------------------- */
+
+        /* BORDER STATUS - SUCCESS // LIGHT - DARK */
+        --light-button-border-status-success--regular: var(--dark-button-border-status-success--regular);
+        --light-button-border-status-success--hover: var(--dark-button-border-status-success--hover);
+        --light-button-border-status-success--active: var(--dark-button-border-status-success--active);
+        --light-button-border-status-success--disabled: var(--dark-button-border-status-success--disabled);
+
+
+        /* BORDER STATUS  - WARNING // LIGHT - DARK */
+        --light-button-border-status-warning--regular: var(--dark-button-border-status-warning--regular);
+        --light-button-border-status-warning--hover: var(--dark-button-border-status-warning--hover);
+        --light-button-border-status-warning--active: var(--dark-button-border-status-warning--active);
+        --light-button-border-status-warning--disabled: var(--dark-button-border-status-warning--disabled);
+
+
+        /* BORDER TEXT STATUS - ERROR // LIGHT - DARK */
+        --light-button-border-status-error--regular: var(--dark-button-border-status-error--regular);
+        --light-button-border-status-error--hover: var(--dark-button-border-status-error--hover);
+        --light-button-border-status-error--active: var(--dark-button-border-status-error--active);
+        --light-button-border-status-error--disabled: var(--dark-button-border-status-error--disabled);
+        
+    /* ------------------------- BACKGROUND - BEGINNING ------------------------- */
+
+        /* BACKGROUND - PRIMARY // LIGHT - DARK */
+        --light-button-background-primary--regular: var(--dark-button-background-primary--regular);
+        --light-button-background-primary--hover: var(--dark-button-background-primary--hover);
+        --light-button-background-primary--active: var(--dark-button-background-primary--active);
+        --light-button-background-primary--disabled: var(--dark-button-background-primary--disabled);
+
+
+        /* BACKGROUND - SECONDARY // LIGHT - DARK */
+        --light-button-background-secondary--regular: var(--dark-button-background-secondary--regular);
+        --light-button-background-secondary--hover: var(--dark-button-background-secondary--hover);
+        --light-button-background-secondary--active: var(--dark-button-background-secondary--active);
+        --light-button-background-secondary--disabled: var(--dark-button-background-secondary--disabled);
+
+
+        /* BACKGROUND - TERTIARY // LIGHT - DARK */
+        --light-button-background-tertiary--regular: var(--dark-button-background-tertiary--regular);
+        --light-button-background-tertiary--hover: var(--dark-button-background-tertiary--hover);
+        --light-button-background-tertiary--active: var(--dark-button-background-tertiary--active);
+        --light-button-background-tertiary--disabled: var(--dark-button-background-tertiary--disabled);
+
+		/* ------------------------- BORDER STATUS - BEGINNING ------------------------- */
+
+        /* BACKGROUND STATUS - SUCCESS // LIGHT - DARK */
+        --light-button-background-status-success--regular: var(--dark-button-background-status-success--regular);
+        --light-button-background-status-success--hover: var(--dark-button-background-status-success--hover);
+        --light-button-background-status-success--active: var(--dark-button-background-status-success--active);
+        --light-button-background-status-success--disabled: var(--dark-button-background-status-success--disabled);
+
+
+        /* BACKGROUND STATUS  - WARNING // LIGHT - DARK */
+        --light-button-background-status-warning--regular: var(--dark-button-background-status-warning--regular);
+        --light-button-background-status-warning--hover: var(--dark-button-background-status-warning--hover);
+        --light-button-background-status-warning--active: var(--dark-button-background-status-warning--active);
+        --light-button-background-status-warning--disabled: var(--dark-button-background-status-warning--disabled);
+
+
+        /* BACKGROUND TEXT STATUS - ERROR // LIGHT - DARK */
+        --light-button-background-status-error--regular: var(--dark-button-background-status-error--regular);
+        --light-button-background-status-error--hover: var(--dark-button-background-status-error--hover);
+        --light-button-background-status-error--active: var(--dark-button-background-status-error--active);
+        --light-button-background-status-error--disabled: var(--dark-button-background-status-error--disabled);
+        
