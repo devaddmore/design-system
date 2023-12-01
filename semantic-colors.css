@@ -1,0 +1,56 @@
+[color-mode="dark"] {
+
+    /* ------------------------- BACKGROUND - BEGINNING ------------------------- */
+
+        /* BACKGROUND - GENERAL // LIGHT - DARK */
+        --light-background--primary: var(--dark-background--primary);
+        --light-background--secondary: var(--dark-background--secondary);
+        --light-background--tertiary: var(--dark-background--tertiary);
+
+        /* BACKGROUND - GENERAL - STATUS // LIGHT - DARK */
+        --light-background-status--success: var(--dark-background-status--success);
+        --light-background-status--warning: var(--dark-background-status--warning);
+        --light-background-status--error: var(--dark-background-status--error);
+
+    /* ------------------------- TEXT COLORS - BEGINNING ------------------------- */
+
+        /* TEXT - BODY // LIGHT - DARK */
+        --light-text--body: var(--dark-text--body);
+
+        /* TEXT - BODY // LIGHT - DARK */
+        --light-text-title--primary: var(--dark-text-title--primary);
+        --light-text-title--secondary: var(--dark-text-title--secondary);
+
+        /* TEXT - LINK // LIGHT - DARK */
+        --light-text-link--regular: var(--dark-text-link--regular);
+        --light-text-link--hover: var(--dark-text-link--hover);
+
+        /* TEXT - STATUS // LIGHT - DARK */
+        --light-text-status--success: var(--dark-text-status--success);
+        --light-text-status--warning: var(--dark-text-status--warning);
+        --light-text-status--error: var(--dark-text-status--error);
+
+    /* ------------------------- ICON - BEGINNING ------------------------- */
+
+        /* ICON - GENERAL // LIGHT - DARK */
+        --light-icon--primary: var(--dark-icon--primary);
+        --light-icon--secondary: var(--dark-icon--secondary);
+        --light-icon--tertiary: var(--dark-icon--tertiary);
+
+        /* ICON - GENERAL - STATUS // LIGHT - DARK */
+        --light-icon-status--success: var(--dark-icon-status--success);
+        --light-icon-status--warning: var(--dark-icon-status--warning);
+        --light-icon-status--error: var(--dark-icon-status--error);
+
+    /* ------------------------- BORDER - BEGINNING ------------------------- */
+
+        /* BORDER - GENERAL // LIGHT - DARK */
+        --light-border--primary: var(--dark-border--primary);
+        --light-border--secondary: var(--dark-border--secondary);
+        --light-border--tertiary: var(--dark-border--tertiary);
+
+        /* BORDER- GENERAL - STATUS // LIGHT - DARK */
+        --light-border-status--success--regular: var(--dark-border-status--success--regular);
+        --light-border-status--warning--regular: var(--dark-border-status--warning--regular);
+        --light-border-status--error--regular: var(--dark-border-status--error--regular);
+}
