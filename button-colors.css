@@ -32,7 +32,13 @@
         --light-button-text-primary--hover: var(--light-button-text-tertiary--hover);
         --light-button-text-primary--active: var(--light-button-text-tertiary--active);
         --light-button-text-primary--disabled: var(--light-button-text-tertiary--disabled);
-        
+
+        /* BUTTON BACKGROUND - TERTIARY */
+        --light-button-background-primary--regular: var(--light-button-background-teritiary--regular);
+        --light-button-background-primary--hover: var(--light-button-background-teritiary--hover);
+        --light-button-background-primary--active: var(--light-button-background-teritiary--active);
+        --light-button-background-primary--disabled: var(--light-button-background-teritiary--disabled);
+	
         /* BUTTON PADDING - TERTIARY */
         padding:0;
         }
