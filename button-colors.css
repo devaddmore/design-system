@@ -55,28 +55,24 @@
 
 [icon-position="left"] { 
         /* ICON LEFT */
-				flex-direction: row-reverse; 
+	flex-direction: row-reverse; 
         }
         
 [icon-only="true"] { 
         /* ICON SHOW */
-				padding:0.75rem!important;
+	padding:0.75rem!important;
         }
 
         
 	/* ------------------------- BUTTON SIZE - BEGINNING ------------------------- */
 
-[button-size="large"] { 
-				/* TEXT LARGE */
-				font-size:1.25rem;
-        }
 
 [button-size="regular"] { 
-				/* TEXT MEDIUM */
-				font-size:1rem;
+	/* TEXT MEDIUM */
+	font-size:var(--button-size--regular);
         }
         
 [button-size="small"] { 
-				/* TEXT SMALL */
-				font-size:0.875rem;
+	/* TEXT SMALL */
+	font-size:var(--button-size--small);
         }
