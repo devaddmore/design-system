@@ -38,7 +38,14 @@
         --light-button-background-primary--hover: var(--light-button-background-teritiary--hover);
         --light-button-background-primary--active: var(--light-button-background-teritiary--active);
         --light-button-background-primary--disabled: var(--light-button-background-teritiary--disabled);
-	
+
+	/* BUTTON BORDER - TERTIARY */
+        --light-button-border-primary--regular: var(--light-button-border-tertiary--regular);
+        --light-button-border-primary--hover: var(--light-button-border-tertiary--hover);
+        --light-button-border-primary--active: var(--light-button-border-tertiary--active);
+        --light-button-border-primary--disabled: var(--light-button-border-tertiary--disabled);
+        }
+
         /* BUTTON PADDING - TERTIARY */
         padding:0;
         }
