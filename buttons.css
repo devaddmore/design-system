@@ -64,12 +64,6 @@
 
         
 	/* ------------------------- BUTTON SIZE - BEGINNING ------------------------- */
-
-
-[button-size="regular"] { 
-	/* TEXT MEDIUM */
-	font-size:var(--button-size--regular);
-        }
         
 [button-size="small"] { 
 	/* TEXT SMALL */
