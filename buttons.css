@@ -68,10 +68,10 @@
 
 [button-size="regular"] { 
 	/* TEXT MEDIUM */
-	font-size:var(--button-size--regular);
+/*	font-size:var(--button-size--regular);
         }
         
 [button-size="small"] { 
 	/* TEXT SMALL */
-	font-size:var(--button-size--small);
-        }
+	/*font-size:var(--button-size--small);
+        } */
