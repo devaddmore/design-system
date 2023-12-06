@@ -74,5 +74,5 @@
 [button-size="small"] { 
 	/* TEXT SMALL */
 	font-size: var(--button-text-size--small);
-  padding: var(--spacing-desktop--spacing-xxs) var(--spacing-desktop--spacing-s);
+  	padding: var(--spacing-desktop--spacing-xxs) var(--spacing-desktop--spacing-s);
   }
